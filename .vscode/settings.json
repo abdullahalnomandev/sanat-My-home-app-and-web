@@ -1,7 +1,15 @@
 {
-
-    "workbench.colorCustomizations": {
-        "activityBar.foreground": "#5191e4",
-        "activityBar.inactiveForeground": "#5191e4"
-    }
+  "workbench.colorCustomizations": {
+    "activityBar.foreground": "#5191e4",
+    "activityBar.inactiveForeground": "#5191e4"
+  },
+  "task.allowAutomaticTasks": true,
+  "debug.openDebug": "neverOpen",
+  "terminal.integrated.inheritEnv": false,
+  "tasks": {
+    "label": "lint on open",
+    "type": "shell",
+    "command": "npm run lint",
+    "runOn": "folderOpen"
+  }
 }
